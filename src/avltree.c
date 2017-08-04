@@ -102,10 +102,12 @@ void insertBST(AVLTree *avltree, Node *node)
 
 void insert(AVLTree *avltree, int value)
 {
-  Node *node = newNode(value);
-  insertBST(avltree, node);
-  if(isInserted(avltree, node)) balance(avltree, node);
-  else free(node);
+    if(findNode(avltree, value) == NULL) {
+        Node *node = newNode(value);
+        insertBST(avltree, node);
+        if (isInserted(avltree, node)) balance(avltree, node);
+        else free(node);
+    }
 }
 
 void balance(AVLTree *avltree, Node *node)

@@ -105,9 +105,9 @@ void rotateRight(AVLTree *avltree, Node *node);
 
 /**
  * Prints the avltree in preorder left right
- * @param[in] avltre: tree to be printed
+ * @param[in] avltree: tree to be printed
  */
-void printAVLTreePLR(AVLTree *avltre);
+void printAVLTreePLR(AVLTree *avltree);
 
 /**
  * Prints the node in preorder left right
