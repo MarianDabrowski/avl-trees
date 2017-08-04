@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/marian/352A14ADEA097CBE/working environment/summerStudies/Algorithms/Cormen/Part3/chapter13/avlTree/main.cpp
+iostream
+-
+

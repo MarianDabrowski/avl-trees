@@ -1,0 +1,15 @@
+digraph "insert"
+{
+  edge [fontname="Verdana",fontsize="10",labelfontname="Verdana",labelfontsize="10"];
+  node [fontname="Verdana",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="insert",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="newNode",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$node_8h.html#ae6300c950be27914e8ae7361cc247a76",tooltip="Constructs a new instance of a node. "];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="insertBST",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$avltree_8h.html#a85b55f7a073e43bab8ffe2a1b413fa37",tooltip="Inserts as if into a BST tree. "];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="isInserted",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$avltree_8h.html#a35e56a639a24c907151220460f2032f8",tooltip="Checks if a node was inserted into a AVLTree. "];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="balance",height=0.2,width=0.4,color="red", fillcolor="white", style="filled",URL="$avltree_8h.html#a02cf481ce67f4289c5c19c0a2287a136",tooltip="Restores the values of a AVLTree. "];
+}

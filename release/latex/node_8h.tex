@@ -1,0 +1,79 @@
+\hypertarget{node_8h}{}\section{node.\+h File Reference}
+\label{node_8h}\index{node.\+h@{node.\+h}}
+
+
+Interface of \hyperlink{structNode}{Node}.  
+
+
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+{\ttfamily \#include $<$assert.\+h$>$}\\*
+Include dependency graph for node.\+h\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structNode}{Node}
+\begin{DoxyCompactList}\small\item\em Structure that represents the \hyperlink{structNode}{Node}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structNode}{Node} \hyperlink{node_8h_a0466fc5f1bc9e6de776e48149b19c471}{Node}\hypertarget{node_8h_a0466fc5f1bc9e6de776e48149b19c471}{}\label{node_8h_a0466fc5f1bc9e6de776e48149b19c471}
+
+\begin{DoxyCompactList}\small\item\em Structure that represents the \hyperlink{structNode}{Node}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structNode}{Node} $\ast$ \hyperlink{node_8h_ae6300c950be27914e8ae7361cc247a76}{new\+Node} (int data)
+\begin{DoxyCompactList}\small\item\em Constructs a new instance of a node. \end{DoxyCompactList}\item 
+static void \hyperlink{node_8h_a67227722f82452af4117819b9da92b2d}{print\+Node} (\hyperlink{structNode}{Node} $\ast$node)
+\begin{DoxyCompactList}\small\item\em Prints the properties of a node to console as std output. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface of \hyperlink{structNode}{Node}. 
+
+\begin{DoxyAuthor}{Author}
+Marian Dabrowski 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\index{node.\+h@{node.\+h}!new\+Node@{new\+Node}}
+\index{new\+Node@{new\+Node}!node.\+h@{node.\+h}}
+\subsubsection[{\texorpdfstring{new\+Node(int data)}{newNode(int data)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node}$\ast$ new\+Node (
+\begin{DoxyParamCaption}
+\item[{int}]{data}
+\end{DoxyParamCaption}
+)}\hypertarget{node_8h_ae6300c950be27914e8ae7361cc247a76}{}\label{node_8h_ae6300c950be27914e8ae7361cc247a76}
+
+
+Constructs a new instance of a node. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em data} & piece of data of the new instance of a node \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+new \hyperlink{structNode}{Node} instance 
+\end{DoxyReturn}
+\index{node.\+h@{node.\+h}!print\+Node@{print\+Node}}
+\index{print\+Node@{print\+Node}!node.\+h@{node.\+h}}
+\subsubsection[{\texorpdfstring{print\+Node(\+Node $\ast$node)}{printNode(Node *node)}}]{\setlength{\rightskip}{0pt plus 5cm}static void print\+Node (
+\begin{DoxyParamCaption}
+\item[{{\bf Node} $\ast$}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}\hypertarget{node_8h_a67227722f82452af4117819b9da92b2d}{}\label{node_8h_a67227722f82452af4117819b9da92b2d}
+
+
+Prints the properties of a node to console as std output. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em node} & the node which properties will be printed \\
+\hline
+\end{DoxyParams}
