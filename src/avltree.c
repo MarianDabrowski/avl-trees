@@ -179,9 +179,10 @@ void deleteNode(AVLTree *avltree, int value)
       temp->parent = node->parent;
     }
     else {
-      node->parent->left = NULL;
+      if(node->parent) node->parent->left = NULL;
       temp = node->parent;
     }
+    if(node == avltree->root) avltree->root = NULL;
     free(node);
     balance(avltree, temp);
   }

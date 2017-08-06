@@ -39,7 +39,7 @@ void \hyperlink{avltree_8h_a49cec04b2fabf93fdea8a72bff521c72}{rotate\+Left} (\hy
 \begin{DoxyCompactList}\small\item\em Rotates the tree left in the node position. \end{DoxyCompactList}\item 
 void \hyperlink{avltree_8h_a46d7ef0fcb978fc5e35a595b46cfc2e0}{rotate\+Right} (\hyperlink{structAVLTree}{A\+V\+L\+Tree} $\ast$avltree, \hyperlink{structNode}{Node} $\ast$node)
 \begin{DoxyCompactList}\small\item\em Rotates the tree right in the node position. \end{DoxyCompactList}\item 
-void \hyperlink{avltree_8h_a7af61e1b3103e0cfdd48ea0fcf52e926}{print\+A\+V\+L\+Tree\+P\+LR} (\hyperlink{structAVLTree}{A\+V\+L\+Tree} $\ast$avltre)
+void \hyperlink{avltree_8h_ae406d2cd9db8ec28312953361fc1d37b}{print\+A\+V\+L\+Tree\+P\+LR} (\hyperlink{structAVLTree}{A\+V\+L\+Tree} $\ast$avltree)
 \begin{DoxyCompactList}\small\item\em Prints the avltree in preorder left right. \end{DoxyCompactList}\item 
 void \hyperlink{avltree_8h_afca91c531c7215b2c2403b5c7a925bee}{print\+Tree\+P\+LR} (\hyperlink{structNode}{Node} $\ast$node)
 \begin{DoxyCompactList}\small\item\em Prints the node in preorder left right. \end{DoxyCompactList}\item 
@@ -284,18 +284,18 @@ a new instance of a \hyperlink{structAVLTree}{A\+V\+L\+Tree}
 \end{DoxyReturn}
 \index{avltree.\+h@{avltree.\+h}!print\+A\+V\+L\+Tree\+P\+LR@{print\+A\+V\+L\+Tree\+P\+LR}}
 \index{print\+A\+V\+L\+Tree\+P\+LR@{print\+A\+V\+L\+Tree\+P\+LR}!avltree.\+h@{avltree.\+h}}
-\subsubsection[{\texorpdfstring{print\+A\+V\+L\+Tree\+P\+L\+R(\+A\+V\+L\+Tree $\ast$avltre)}{printAVLTreePLR(AVLTree *avltre)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+A\+V\+L\+Tree\+P\+LR (
+\subsubsection[{\texorpdfstring{print\+A\+V\+L\+Tree\+P\+L\+R(\+A\+V\+L\+Tree $\ast$avltree)}{printAVLTreePLR(AVLTree *avltree)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+A\+V\+L\+Tree\+P\+LR (
 \begin{DoxyParamCaption}
-\item[{{\bf A\+V\+L\+Tree} $\ast$}]{avltre}
+\item[{{\bf A\+V\+L\+Tree} $\ast$}]{avltree}
 \end{DoxyParamCaption}
-)}\hypertarget{avltree_8h_a7af61e1b3103e0cfdd48ea0fcf52e926}{}\label{avltree_8h_a7af61e1b3103e0cfdd48ea0fcf52e926}
+)}\hypertarget{avltree_8h_ae406d2cd9db8ec28312953361fc1d37b}{}\label{avltree_8h_ae406d2cd9db8ec28312953361fc1d37b}
 
 
 Prints the avltree in preorder left right. 
 
 
 \begin{DoxyParams}[1]{Parameters}
-\mbox{\tt in}  & {\em avltre} & tree to be printed \\
+\mbox{\tt in}  & {\em avltree} & tree to be printed \\
 \hline
 \end{DoxyParams}
 

@@ -14,9 +14,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2cf9da8-9a39-40d2-85e2-5ff4b179bb68" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/release/CMakeFiles/Makefile.cmake" afterPath="$PROJECT_DIR$/release/CMakeFiles/Makefile.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/avltree.c" afterPath="$PROJECT_DIR$/src/avltree.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/avltree.h" afterPath="$PROJECT_DIR$/src/avltree.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,8 +118,8 @@
       <file leaf-file-name="avltree.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/avltree.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+            <state relative-caret-position="259">
+              <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
               <folding>
                 <element signature="e#22#458#0" expanded="false" />
                 <element signature="e#460#894#0" expanded="false" />
@@ -167,7 +164,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1302" />
+    <option name="x" value="64" />
     <option name="y" value="-11" />
     <option name="width" value="1303" />
     <option name="height" value="717" />
@@ -452,15 +449,15 @@
       <updated>1501835247096</updated>
       <workItem from="1501835248699" duration="427000" />
       <workItem from="1501838419333" duration="7011000" />
-      <workItem from="1501881048681" duration="1331000" />
+      <workItem from="1501881048681" duration="1763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8769000" />
+    <option name="totallyTimeSpent" value="9201000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1302" y="-11" width="1303" height="717" extended-state="6" />
+    <frame x="64" y="-11" width="1303" height="717" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -759,8 +756,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/avltree.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="109" column="5" lean-forward="true" selection-start-line="109" selection-start-column="5" selection-end-line="109" selection-end-column="5" />
+        <state relative-caret-position="259">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="110" selection-end-column="1" />
           <folding>
             <element signature="e#22#458#0" expanded="false" />
             <element signature="e#460#894#0" expanded="false" />
