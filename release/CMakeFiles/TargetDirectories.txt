@@ -1,4 +1,0 @@
-/media/marian/352A14ADEA097CBE/working environment/summerStudies/Algorithms/Cormen/Part3/chapter13/avlTree/release/CMakeFiles/edit_cache.dir
-/media/marian/352A14ADEA097CBE/working environment/summerStudies/Algorithms/Cormen/Part3/chapter13/avlTree/release/CMakeFiles/rebuild_cache.dir
-/media/marian/352A14ADEA097CBE/working environment/summerStudies/Algorithms/Cormen/Part3/chapter13/avlTree/release/CMakeFiles/doc.dir
-/media/marian/352A14ADEA097CBE/working environment/summerStudies/Algorithms/Cormen/Part3/chapter13/avlTree/release/CMakeFiles/avlTree.dir
